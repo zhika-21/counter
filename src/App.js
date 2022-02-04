@@ -49,6 +49,7 @@ export default class App extends Component {
         <Input labelName="lower value" func={this.getMinVal} value={minVal}/>
 
         <Input labelName="upper value" func={this.getMaxVal} value={maxVal}/>
+
         <Button name="generate" func={this.generateNum}/> 
         <Button name="clear" func={this.clear}/> 
       </div>
