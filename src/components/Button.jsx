@@ -1,6 +1,6 @@
 import "./Button.css"
 const Button = (props) => {
-    return <button className={props.name} onChange = {props.func}>{props.name}</button> 
+    return <button className={props.name} onClick = {props.func}>{props.name}</button> 
        
     
 }
