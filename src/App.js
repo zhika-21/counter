@@ -24,7 +24,7 @@ export default class App extends Component {
   }
 
   generateNum = () => {
-    console.log("click")
+    
     const {minVal, maxVal} = this.state
     if (minVal < maxVal) {
       let randomNum = Math.floor(Math.random() * (maxVal - minVal + 1) + minVal)

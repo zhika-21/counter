@@ -1,12 +1,15 @@
 *{
   color: #023968;
 }
+body{
+  background-color:navajowhite;
+}
 
 .container {
   text-align: center;
   font-size: 20px;
   border: solid 2px #023968;
-  background-color: #F0B152;
+  background-color: #0d53af;
   width: 400px;
   height: 350px;
   margin: 100px auto;
